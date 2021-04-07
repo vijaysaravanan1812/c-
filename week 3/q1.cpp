@@ -30,6 +30,7 @@ class B {
 
 int add(A a, B b)
 {
+    printf("%d + %d = \t",a.numA,b.numB);
     int sum = a.numA + b.numB;
     return sum;
 }
@@ -41,7 +42,7 @@ int main()
 {
     A a;B b;
     int sum = add(a,b);
-    printf("%d \n",sum);
+    printf("%d\n",sum);
     return 0;
 
 
